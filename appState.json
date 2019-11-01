@@ -15,7 +15,8 @@
           "3b82fd2f-6595-49a8-a56e-eb858dce9f69",
           "b5bd1003-2a54-4cbf-aed7-5d3a61272c85",
           "c6b18076-d16a-487f-8fec-c21860e95c99",
-          "2e3479bb-bd09-459c-893f-c443c212aad2"
+          "2e3479bb-bd09-459c-893f-c443c212aad2",
+          "7ece537c-838c-416b-9bc6-4d7e7d5adf50"
         ],
         "isRemovable": false,
         "filePath": "testindgit1"
@@ -125,6 +126,16 @@
         "isRemovable": true,
         "filePath": "testindgit1/text1.txt",
         "code": "xxc dss"
+      },
+      "7ece537c-838c-416b-9bc6-4d7e7d5adf50": {
+        "id": "7ece537c-838c-416b-9bc6-4d7e7d5adf50",
+        "parent": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
+        "name": "nwSubDir",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testindgit1/nwSubDir"
       }
     },
     "rootNode": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
@@ -172,7 +183,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572601446731
+    "lastSave": 1572601485989
   },
   "VCS_STATE": {
     "provider": "GitHub",

@@ -14,7 +14,8 @@
           "620bf586-8353-4707-b2e6-418758677fbe",
           "3b82fd2f-6595-49a8-a56e-eb858dce9f69",
           "b5bd1003-2a54-4cbf-aed7-5d3a61272c85",
-          "c6b18076-d16a-487f-8fec-c21860e95c99"
+          "c6b18076-d16a-487f-8fec-c21860e95c99",
+          "2e3479bb-bd09-459c-893f-c443c212aad2"
         ],
         "isRemovable": false,
         "filePath": "testindgit1"
@@ -113,6 +114,17 @@
         "isRemovable": true,
         "filePath": "testindgit1/scss1.scss",
         "code": ""
+      },
+      "2e3479bb-bd09-459c-893f-c443c212aad2": {
+        "id": "2e3479bb-bd09-459c-893f-c443c212aad2",
+        "parent": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
+        "name": "text1.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testindgit1/text1.txt",
+        "code": "xxc dss"
       }
     },
     "rootNode": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
@@ -122,9 +134,10 @@
       "620bf586-8353-4707-b2e6-418758677fbe",
       "3b82fd2f-6595-49a8-a56e-eb858dce9f69",
       "b5bd1003-2a54-4cbf-aed7-5d3a61272c85",
-      "c6b18076-d16a-487f-8fec-c21860e95c99"
+      "c6b18076-d16a-487f-8fec-c21860e95c99",
+      "2e3479bb-bd09-459c-893f-c443c212aad2"
     ],
-    "currentFileId": "c6b18076-d16a-487f-8fec-c21860e95c99",
+    "currentFileId": "2e3479bb-bd09-459c-893f-c443c212aad2",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -159,7 +172,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572601403112
+    "lastSave": 1572601446731
   },
   "VCS_STATE": {
     "provider": "GitHub",

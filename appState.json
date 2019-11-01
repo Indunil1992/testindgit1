@@ -76,7 +76,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "testindgit1/jsfile.js",
-        "code": ""
+        "code": "/////////"
       }
     },
     "rootNode": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
@@ -120,7 +120,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572599340541
+    "lastSave": 1572600351120
   },
   "VCS_STATE": {
     "provider": "GitHub",

@@ -13,7 +13,8 @@
           "f57e78ca-c54c-4db7-a356-6cf0fb5b5996",
           "620bf586-8353-4707-b2e6-418758677fbe",
           "3b82fd2f-6595-49a8-a56e-eb858dce9f69",
-          "b5bd1003-2a54-4cbf-aed7-5d3a61272c85"
+          "b5bd1003-2a54-4cbf-aed7-5d3a61272c85",
+          "c6b18076-d16a-487f-8fec-c21860e95c99"
         ],
         "isRemovable": false,
         "filePath": "testindgit1"
@@ -101,6 +102,17 @@
         "isRemovable": true,
         "filePath": "testindgit1/css1.css",
         "code": "body {\r\n  background-color: lightblue;\r\n}\r\n\r\nh1 {\r\n  color: white;\r\n  text-align: center;\r\n}\r\n\r\np {\r\n  font-family: verdana;\r\n  font-size: 20px;\r\n}"
+      },
+      "c6b18076-d16a-487f-8fec-c21860e95c99": {
+        "id": "c6b18076-d16a-487f-8fec-c21860e95c99",
+        "parent": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
+        "name": "scss1.scss",
+        "type": "SCSS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testindgit1/scss1.scss",
+        "code": ""
       }
     },
     "rootNode": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
@@ -109,9 +121,10 @@
       "53cd9be5-87a8-4d8d-9279-3f655589c922",
       "620bf586-8353-4707-b2e6-418758677fbe",
       "3b82fd2f-6595-49a8-a56e-eb858dce9f69",
-      "b5bd1003-2a54-4cbf-aed7-5d3a61272c85"
+      "b5bd1003-2a54-4cbf-aed7-5d3a61272c85",
+      "c6b18076-d16a-487f-8fec-c21860e95c99"
     ],
-    "currentFileId": "b5bd1003-2a54-4cbf-aed7-5d3a61272c85",
+    "currentFileId": "c6b18076-d16a-487f-8fec-c21860e95c99",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -146,7 +159,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572601000932
+    "lastSave": 1572601403112
   },
   "VCS_STATE": {
     "provider": "GitHub",

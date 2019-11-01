@@ -133,9 +133,22 @@
         "name": "nwSubDir",
         "type": "DIRECTORY",
         "isDirectory": true,
-        "children": [],
+        "children": [
+          "79fefea4-fe24-4588-b72f-2ec6de73ca24"
+        ],
         "isRemovable": true,
         "filePath": "testindgit1/nwSubDir"
+      },
+      "79fefea4-fe24-4588-b72f-2ec6de73ca24": {
+        "id": "79fefea4-fe24-4588-b72f-2ec6de73ca24",
+        "parent": "7ece537c-838c-416b-9bc6-4d7e7d5adf50",
+        "name": "testMerge.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testindgit1/nwSubDir/testMerge.txt",
+        "code": ""
       }
     },
     "rootNode": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
@@ -146,9 +159,10 @@
       "3b82fd2f-6595-49a8-a56e-eb858dce9f69",
       "b5bd1003-2a54-4cbf-aed7-5d3a61272c85",
       "c6b18076-d16a-487f-8fec-c21860e95c99",
-      "2e3479bb-bd09-459c-893f-c443c212aad2"
+      "2e3479bb-bd09-459c-893f-c443c212aad2",
+      "79fefea4-fe24-4588-b72f-2ec6de73ca24"
     ],
-    "currentFileId": "2e3479bb-bd09-459c-893f-c443c212aad2",
+    "currentFileId": "79fefea4-fe24-4588-b72f-2ec6de73ca24",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -183,7 +197,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572601485989
+    "lastSave": 1572601532630
   },
   "VCS_STATE": {
     "provider": "GitHub",

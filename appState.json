@@ -100,7 +100,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "testindgit1/css1.css",
-        "code": "///"
+        "code": "body {\r\n  background-color: lightblue;\r\n}\r\n\r\nh1 {\r\n  color: white;\r\n  text-align: center;\r\n}\r\n\r\np {\r\n  font-family: verdana;\r\n  font-size: 20px;\r\n}"
       }
     },
     "rootNode": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
@@ -146,7 +146,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572600930633
+    "lastSave": 1572601000932
   },
   "VCS_STATE": {
     "provider": "GitHub",

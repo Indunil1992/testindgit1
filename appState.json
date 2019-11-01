@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "f899d9c4-1deb-4525-bc98-56699b3b07ee": {
+        "id": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
+        "parent": null,
+        "name": "testindgit1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "0adbbe1c-d6ea-406d-bdac-9a640885edad"
+        ],
+        "isRemovable": false,
+        "filePath": "testindgit1"
+      },
+      "0adbbe1c-d6ea-406d-bdac-9a640885edad": {
+        "id": "0adbbe1c-d6ea-406d-bdac-9a640885edad",
+        "parent": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testindgit1/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
+    "openFiles": [
+      "0adbbe1c-d6ea-406d-bdac-9a640885edad"
+    ],
+    "currentFileId": "0adbbe1c-d6ea-406d-bdac-9a640885edad",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testindgit1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1572597964159
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testindgit1",
+      "url": "https://github.com/Indunil1992/testindgit1"
+    }
+  }
+}

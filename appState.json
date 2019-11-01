@@ -88,7 +88,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "testindgit1/html1.html",
-        "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>html1</title>\n</head>\n<body>\n\n</body>\n</html>"
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>html1</title>\n</head>\n<body>\n<p>This is a paragraph.</p>\n</body>\n</html>"
       }
     },
     "rootNode": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
@@ -133,7 +133,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572600564869
+    "lastSave": 1572600648020
   },
   "VCS_STATE": {
     "provider": "GitHub",

@@ -10,7 +10,8 @@
         "children": [
           "0adbbe1c-d6ea-406d-bdac-9a640885edad",
           "53cd9be5-87a8-4d8d-9279-3f655589c922",
-          "f57e78ca-c54c-4db7-a356-6cf0fb5b5996"
+          "f57e78ca-c54c-4db7-a356-6cf0fb5b5996",
+          "620bf586-8353-4707-b2e6-418758677fbe"
         ],
         "isRemovable": false,
         "filePath": "testindgit1"
@@ -49,7 +50,9 @@
           "handler": "handler",
           "timeout": 73,
           "memory": 320,
-          "layers": []
+          "layers": [
+            "arn:aws:lambda:us-east-2:123456789012:layer:my-layer:3"
+          ]
         },
         "triggers": []
       },
@@ -63,14 +66,26 @@
         "isRemovable": true,
         "filePath": "testindgit1/__init__.py",
         "code": ""
+      },
+      "620bf586-8353-4707-b2e6-418758677fbe": {
+        "id": "620bf586-8353-4707-b2e6-418758677fbe",
+        "parent": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
+        "name": "jsfile.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testindgit1/jsfile.js",
+        "code": ""
       }
     },
     "rootNode": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
     "openFiles": [
       "0adbbe1c-d6ea-406d-bdac-9a640885edad",
-      "53cd9be5-87a8-4d8d-9279-3f655589c922"
+      "53cd9be5-87a8-4d8d-9279-3f655589c922",
+      "620bf586-8353-4707-b2e6-418758677fbe"
     ],
-    "currentFileId": "53cd9be5-87a8-4d8d-9279-3f655589c922",
+    "currentFileId": "620bf586-8353-4707-b2e6-418758677fbe",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -105,7 +120,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572598720292
+    "lastSave": 1572599340541
   },
   "VCS_STATE": {
     "provider": "GitHub",

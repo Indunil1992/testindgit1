@@ -11,7 +11,8 @@
           "0adbbe1c-d6ea-406d-bdac-9a640885edad",
           "53cd9be5-87a8-4d8d-9279-3f655589c922",
           "f57e78ca-c54c-4db7-a356-6cf0fb5b5996",
-          "620bf586-8353-4707-b2e6-418758677fbe"
+          "620bf586-8353-4707-b2e6-418758677fbe",
+          "3b82fd2f-6595-49a8-a56e-eb858dce9f69"
         ],
         "isRemovable": false,
         "filePath": "testindgit1"
@@ -77,15 +78,27 @@
         "isRemovable": true,
         "filePath": "testindgit1/jsfile.js",
         "code": "/////////"
+      },
+      "3b82fd2f-6595-49a8-a56e-eb858dce9f69": {
+        "id": "3b82fd2f-6595-49a8-a56e-eb858dce9f69",
+        "parent": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
+        "name": "html1.html",
+        "type": "HTML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testindgit1/html1.html",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>html1</title>\n</head>\n<body>\n\n</body>\n</html>"
       }
     },
     "rootNode": "f899d9c4-1deb-4525-bc98-56699b3b07ee",
     "openFiles": [
       "0adbbe1c-d6ea-406d-bdac-9a640885edad",
       "53cd9be5-87a8-4d8d-9279-3f655589c922",
-      "620bf586-8353-4707-b2e6-418758677fbe"
+      "620bf586-8353-4707-b2e6-418758677fbe",
+      "3b82fd2f-6595-49a8-a56e-eb858dce9f69"
     ],
-    "currentFileId": "620bf586-8353-4707-b2e6-418758677fbe",
+    "currentFileId": "3b82fd2f-6595-49a8-a56e-eb858dce9f69",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -120,7 +133,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572600351120
+    "lastSave": 1572600564869
   },
   "VCS_STATE": {
     "provider": "GitHub",
